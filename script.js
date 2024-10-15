@@ -1,6 +1,6 @@
 document.getElementById('fetchButton').addEventListener('click', function () {
   console.log('111111111111111111111');
-  fetch('http://132.226.23.243:3300/image')
+  fetch('https://cors-anywhere.herokuapp.com/http://132.226.23.243:3300/image')
     .then((response) => {
       console.log('2222222222222', response);
       if (!response.ok) {
